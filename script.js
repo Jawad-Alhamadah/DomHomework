@@ -41,7 +41,7 @@ let data = [
     { element: document.getElementById("ref-2-name"), hidden:  "Sharp Shaper", original: "Harper Richard" },
     { element: document.getElementById("ref-2-title"), hidden: "CEO OF company2", original: "Wardiere inc. /CTO" },
     { element: document.getElementById("ref-2-phone"), hidden: "055622465", original: "123-456-7890" },
-    { element: document.getElementById("ref-2-email"), hidden: "myem@provider.com", original: "jello@reallygreatsite.com" },
+    { element: document.getElementById("ref-2-email"), hidden: "Email: myem@provider.com", original: "Email: jello@reallygreatsite.com" },
     { element: document.getElementById("uni-title-1"), hidden: "Kansas State University", original: "WARDIRE UNIVERSITY" },
     { element: document.getElementById("uni-title-2"), hidden: "Kansas State University", original: "WARDIRE UNIVERSITY" },
     { element: document.getElementById("language-1"), hidden: "Arabic", original: "English(Fluent)" },
