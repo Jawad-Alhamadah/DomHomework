@@ -22,6 +22,11 @@ body{
     background-size: cover;
     border:10px solid white;
  }
+
+ 
+.email span{
+   font-size:0.8em
+}
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -40,6 +45,10 @@ body{
     background-size: cover;
     border:10px solid white;
  }
+
+ .email span{
+   font-size:1em
+}
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -60,6 +69,10 @@ body{
     background-size: cover;
     border:10px solid white;
  }
+
+ .email span{
+   font-size:1em
+}
 }
 
  .side-info-container{
@@ -130,4 +143,3 @@ body{
 .cv-image:hover{
    background-image: url("me.png");
 }
-
