@@ -3,7 +3,9 @@ html{
     font-family:Now-Bold_4c_1
 }
 
-
+body{
+    background-color: #081520;
+}
 @media (min-width: 200px) { 
 
     /* .cv-image{
@@ -102,7 +104,6 @@ html{
 
  .date{
     font-size: 0.7em;
-    color:gray;
  }
 
  .text-gray{
