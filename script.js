@@ -34,11 +34,11 @@ let data = [
     { element: document.getElementById("workplace-3-title"), hidden: "Python github script", original: "Marketing Manger & Specialist" },
     { element: document.getElementById("workplace-3-point1"), hidden: "created a file spliter script for github files", original: "Develop and maintain strong relationships with partners, agencies, and vendors to support marketing initiatives." },
     { element: document.getElementById("workplace-3-point2"), hidden: "created a file merger to merge split files back into a big file", original: "Monitor and maintain brand consistency across all marketing channels and materials." },
-    { element: document.getElementById("ref-1-name"), hidden:  "John Jhonos", original: "Estelle Darcy" },
+    { element: document.getElementById("ref-1-name"), hidden: "John Jhonos", original: "Estelle Darcy" },
     { element: document.getElementById("ref-1-title"), hidden: "CEO OF company", original: "Wardiere inc. /CTO" },
     { element: document.getElementById("ref-1-phone"), hidden: "055663521", original: "123-456-7890" },
     { element: document.getElementById("ref-1-email"), hidden: "Email: JCEO@outlook.com", original: " Email: jello@reallygreatsite.com" },
-    { element: document.getElementById("ref-2-name"), hidden:  "Sharp Shaper", original: "Harper Richard" },
+    { element: document.getElementById("ref-2-name"), hidden: "Sharp Shaper", original: "Harper Richard" },
     { element: document.getElementById("ref-2-title"), hidden: "CEO OF company2", original: "Wardiere inc. /CTO" },
     { element: document.getElementById("ref-2-phone"), hidden: "055622465", original: "123-456-7890" },
     { element: document.getElementById("ref-2-email"), hidden: "Email: myem@provider.com", original: "Email: jello@reallygreatsite.com" },
@@ -48,8 +48,8 @@ let data = [
     { element: document.getElementById("language-2"), hidden: "English", original: "French(Fluent)" },
     { element: document.getElementById("language-3"), hidden: "None", original: "German" },
     { element: document.getElementById("language-4"), hidden: "None", original: "Spanish(Intermediate)" },
-   
-   
+
+
 
 
 
@@ -57,7 +57,7 @@ let data = [
 
 ]
 
-data.map(element =>{
+data.map(element => {
     element.element.classList.add("hide-container")
     let hidden = document.createElement("span")
     let original = document.createElement("span")
