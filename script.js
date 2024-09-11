@@ -37,7 +37,7 @@ let data = [
     { element: document.getElementById("ref-1-name"), hidden:  "John Jhonos", original: "Estelle Darcy" },
     { element: document.getElementById("ref-1-title"), hidden: "CEO OF company", original: "Wardiere inc. /CTO" },
     { element: document.getElementById("ref-1-phone"), hidden: "055663521", original: "123-456-7890" },
-    { element: document.getElementById("ref-1-email"), hidden: "JCEO@outlook.com", original: "jello@reallygreatsite.com" },
+    { element: document.getElementById("ref-1-email"), hidden: "Email: JCEO@outlook.com", original: " Email: jello@reallygreatsite.com" },
     { element: document.getElementById("ref-2-name"), hidden:  "Sharp Shaper", original: "Harper Richard" },
     { element: document.getElementById("ref-2-title"), hidden: "CEO OF company2", original: "Wardiere inc. /CTO" },
     { element: document.getElementById("ref-2-phone"), hidden: "055622465", original: "123-456-7890" },
