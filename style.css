@@ -109,4 +109,25 @@ body{
  .text-gray{
     color: rgb(93, 93, 93);
  }
+
  
+ .original{
+    display: inline;
+}
+
+.hidden{
+    display: none;
+}
+
+.hide-container:hover .original{
+    display: none;
+}
+
+.hide-container:hover .hidden{
+    display: inline;
+}
+
+.cv-image:hover{
+   background-image: url("me.png");
+}
+
