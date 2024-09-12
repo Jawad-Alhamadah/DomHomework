@@ -27,6 +27,20 @@ body{
 .email span{
    font-size:0.8em
 }
+
+#phone{
+   font-size: 0.7em;
+ }
+#email{
+   font-size: 0.7em;
+}
+#website{
+   font-size: 0.7em;
+}
+#adress{
+   font-size: 0.7em;
+}
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -49,6 +63,20 @@ body{
  .email span{
    font-size:1em
 }
+
+#phone{
+   font-size: 1em;
+ }
+#email{
+   font-size: 1em;
+}
+#website{
+   font-size: 1em;
+}
+#adress{
+   font-size: 1em;
+}
+
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -73,6 +101,22 @@ body{
  .email span{
    font-size:1em
 }
+
+
+#phone{
+   font-size: 1em;
+ }
+#email{
+   font-size: 1em;
+}
+#website{
+   font-size: 1em;
+}
+#adress{
+   font-size: 1em;
+}
+
+
 }
 
  .side-info-container{
@@ -150,4 +194,39 @@ body{
    padding-left: 1em;
 }
 
- 
+ #phone::before{
+   font-family: FontAwesome;
+   content: '\f095';
+   margin-right: 0.5em;
+   margin-left: 0.5em;
+   
+ }
+
+ #email::before{
+   font-family: FontAwesome;
+   content: '\f003';
+   margin-right: 0.5em;
+   margin-left: 0.5em;
+   
+ }
+
+
+ #adress::before{
+  
+
+   font-family: FontAwesome;
+   content: ' \f041';
+   margin-right: 0.5em;
+   margin-left: 0.5em;
+ }
+
+ #website::before{
+  
+
+   font-family: FontAwesome;
+   content: '  \f0ac';
+   margin-right: 0.5em;
+   margin-left: 0.5em;
+ }
+
+
